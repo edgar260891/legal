@@ -79,7 +79,7 @@ var c4 = 'rgb(0,0,255)';
 
 
 function preload() {
-    tabla_central = loadTable("https://docs.google.com/spreadsheets/d/e/2PACX-1vQwRYM7eXXRwyGOp2HL7Qlnkr-oRsrqdF0kAFKMFLuHmuBgsRs3FB4iXf0GX1hHgEOXELO5z5bee9m5/pub?gid=0&single=true&output=csv", 'csv', 'header');
+    tabla_central = loadTable("https://docs.google.com/spreadsheets/d/e/2PACX-1vQwRYM7eXXRwyGOp2HL7Qlnkr-oRsrqdF0kAFKMFLuHmuBgsRs3FB4iXf0GX1hHgEOXELO5z5bee9m5/pub?output=csv", 'csv', 'header');
     abogados = loadTable("data/ABOGADOS.csv", 'csv', 'header');
     sucursales = loadTable("data/SUCURSALES.csv", 'csv', 'header');
 
